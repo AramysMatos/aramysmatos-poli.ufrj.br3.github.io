@@ -1,0 +1,19 @@
+process_name: Bigu development process
+process_description: Este processo define as atividades e tarefas necessárias para o desenvolvimento de uma plataforma capaz de gerar automaticamente o site para detalhar o processo.
+activity_graph: "graph TD\n implementation[Implementation] --> specification[Specification]\n solo[Solo Activity]\n specification[Specification]\n"
+
+collections:
+  phases:
+    output: true
+  activities:
+    output: true
+  artifacts:
+    output: true
+  tools:
+    output: true
+  guidelines:
+    output: true
+  roles:
+    output: true
+  templates:
+    output: true
