@@ -18,4 +18,4 @@ collections:
   templates:
     output: true
 
-theme: minima
+theme: Modernist
