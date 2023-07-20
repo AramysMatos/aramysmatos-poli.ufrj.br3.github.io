@@ -1,6 +1,6 @@
 process_name: Bigu development process
 process_description: Este processo define as atividades e tarefas necessárias para o desenvolvimento de uma plataforma capaz de gerar automaticamente o site para detalhar o processo.
-activity_graph: "graph TD\n implementation[Implementation] --> specification[Specification]\n specification[Specification]\n solo[Solo Activity]\n"
+activity_graph: "graph TD\n implementation[Implementation] --> specification[Specification]\n solo[Solo Activity]\n specification[Specification]\n"
 
 collections:
   phases:
@@ -17,11 +17,3 @@ collections:
     output: true
   templates:
     output: true
-
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-- jekyll-remote-theme
--
-domain: aramysmatos.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://aramysmatos.github.io # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /aramysmatos-poli.ufrj.br3.github.io/
